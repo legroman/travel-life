@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Search from "./components/Search";
 import IconBoxes from "./components/Icon-boxes";
+import PopularPlaces from "./components/Popular-places";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Slider/>
       <Search/>
       <IconBoxes/>
+      <PopularPlaces/>
     </div>
   );
 }
