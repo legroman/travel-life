@@ -6,6 +6,7 @@ import Slider from "./components/Slider";
 import Search from "./components/Search";
 import IconBoxes from "./components/Icon-boxes";
 import PopularPlaces from "./components/Popular-places";
+import Follow from "./components/Follow";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Search/>
       <IconBoxes/>
       <PopularPlaces/>
+      <Follow/>
     </div>
   );
 }
