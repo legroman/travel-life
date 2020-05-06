@@ -4,6 +4,7 @@ import './App.css';
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Search from "./components/Search";
+import IconBoxes from "./components/Icon-boxes";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Slider/>
       <Search/>
+      <IconBoxes/>
     </div>
   );
 }
