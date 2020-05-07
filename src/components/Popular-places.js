@@ -5,7 +5,7 @@ export default function PopularPlaces() {
         <section id="popular" className="section section-popular scrollspy">
             <div className="container">
                 <div className="row">
-                    <h4 className="center"><span className="teal-text">Popular Places</span></h4>
+                    <h4 className="center"><span className="teal-text">Popular</span> Places</h4>
                     <div className="col s12 m4">
                         <div className="card">
                             <div className="card-image">
