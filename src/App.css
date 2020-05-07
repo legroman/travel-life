@@ -10,5 +10,16 @@
 }
 
 .section-follow .fa-4x:hover{
-    color: yellow;
+    color: azure;
+}
+
+.section-contact .fa-email{
+    font-size: 2.5rem;
+}
+.section-contact .form-title{
+    text-transform: uppercase;
+}
+
+footer{
+    padding: 1px 0!important;
 }

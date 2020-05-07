@@ -9,6 +9,7 @@ import PopularPlaces from "./components/Popular-places";
 import Follow from "./components/Follow";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Follow/>
       <Gallery/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

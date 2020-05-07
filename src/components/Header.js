@@ -3,10 +3,12 @@ import React, {useEffect} from "react";
 export default function Header() {
     useEffect(() => {
         let sidenav = document.querySelector('.sidenav');
+        let ss = document.querySelectorAll('.scrollspy');
         window.M.Sidenav.init(sidenav, {});
+        window.M.ScrollSpy.init(ss, {});
     }, []);
     return (
-        <header>
+        <header id="home" className="scrollspy">
             <div className="navbar-fixed">
                 <nav className="teal">
                     <div className="container">

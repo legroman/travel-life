@@ -7,21 +7,21 @@ export default function Contact() {
                 <div className="row">
                     <div className="col s12 m6">
                         <div className="card-panel teal white-text center">
-                            <i className="material-icons">email</i>
+                            <i className="material-icons fa-email">email</i>
                             <h5>Contact Us For Booking</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto at eligendi
                                 laboriosam nihil omnis perferendis provident quod sint soluta.</p>
                         </div>
                         <ul className="collection with-header">
-                            <li className="collection-header"><h4>Location</h4></li>
+                            <li className="collection-header"><h5>Location</h5></li>
                             <li className="collection-item">Travel Life Agency</li>
-                            <li className="collection-item">555 Beach Rd, Suite 55</li>
-                            <li className="collection-item">Miami, SL 55555</li>
+                            <li className="collection-item">Ivano-Frankivsk, Nezalezhnosti 55</li>
+                            <li className="collection-item">tel. (099)20-26-700</li>
                         </ul>
                     </div>
                     <div className="col s12 m6">
                         <div className="card-panel grey lighten-3">
-                            <h5>Please fill out this form</h5>
+                            <h5 className="form-title">Please fill out this form</h5>
                             <div className="input-field">
                                 <input type="text" placeholder="Name"/>
                             </div>
