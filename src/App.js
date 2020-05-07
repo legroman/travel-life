@@ -8,6 +8,7 @@ import IconBoxes from "./components/Icon-boxes";
 import PopularPlaces from "./components/Popular-places";
 import Follow from "./components/Follow";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <PopularPlaces/>
       <Follow/>
       <Gallery/>
+      <Contact/>
     </div>
   );
 }
